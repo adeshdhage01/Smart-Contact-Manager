@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+	th:replace="normal/base::Layout(~{::section})">
+<title>User Dashboard</title>
+<body>
+	<section class="user_dashboard d-flex justify-content-center align-items-center">
+		<div class="text-center">
+			<h1 class= "font-weight-bold">Smart Contact Manager</h1>
+			<p>
+				Start storing your contacts on cloud....
+			</p>
+			<a href="#" th:href="@{/user/add-contact}" class="btn bg-primary btn-lg text-white">Get start</a>
+		</div>
+	</section>
+</body>
+</html>
+
+	
+	
+	
+	
+	
+	
+	
+<!-- 				<img src="" class="user_dashboard"
+				th:src="@{/img/user_dashboard_banner.jpg}" alt="Profile Photo -->" />
